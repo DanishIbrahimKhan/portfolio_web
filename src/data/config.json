@@ -1,0 +1,45 @@
+{
+  "job": "Frontend Developer",
+  "name": "Danish Ibrahim Khan",
+  "desc": "The traveler of this path, a web designer in Maharashtra India.",
+  "aboutDesc": "I’m a Web Developer with over two years of experience, specializing in front-end development with React.js, React Saga, and Next.js. I have a proven track record of building responsive, high-performance web applications while collaborating with cross-functional and multilingual teams to deliver localized functionality and seamless user experiences.I possess foundational knowledge of React Native for developing cross-platform mobile applications and have knowledge of Node.js for back-end development, enabling me to understand full-stack projects effectively.My skill set includes integrating RESTful APIs to manage and display real-time data. I utilize tools such as Netlify, Git, Figma, Azure, and Jira to streamline development, deployment, and project management. With a strong foundation in HTML5, CSS3, and JavaScript (ES6+), I am committed to ensuring cross-browser compatibility and delivering high-quality solutions.",
+  "email": "mr.danishibrahim@gmail.com",
+  "status": "on",
+  "hireMeLink": "mailto:mr.danishibrahim@gmail.com",
+  "projects": [
+    {
+      "project-image-url": "https://github.com/kaanayyildiz/benfolio/assets/39806458/9d826c30-0135-4620-8e0f-bc3460848e5e",
+      "project-name": "portfolio",
+      "project-desc": "React + Tailwind"
+    },
+    {
+      "project-image-url": "https://raw.githubusercontent.com/DanishIbrahimKhan/assets/main/carepulse2.jpg",
+      "project-name": "carepulse",
+      "project-desc": "Next JS + Appwrite + Tailwind",
+      "href": "https://dik-carepulse.vercel.app"
+    }
+  ],
+  "social": [
+    {
+      "icon": "FaXTwitter",
+      "link": "https://x.com/DanishIbrahimk"
+    },
+    {
+      "icon": "FaGithub",
+      "link": "https://github.com/DanishIbrahimKhan"
+    },
+    {
+      "icon": "FaLinkedinIn",
+      "link": "https://www.linkedin.com/in/danish-ibrahim-khan-4588a71a1/"
+    },
+    {
+      "icon": "FaPhone",
+      "link": "tel:+919172237224"
+    }
+  ],
+  "projectShow": [{
+    "screenShot": "https://raw.githubusercontent.com/DanishIbrahimKhan/assets/main/carepulseSS1.jpg",
+    "title": "CarePulse - Online Healthcare Appointment System",
+    "description": "CarePulse is a healthcare web application designed to simplify the process of scheduling medical appointments. The platform allows patients to quickly and easily book appointments with healthcare professionals by entering basic personal information such as their full name, email, and phone number. The website's clean and professional interface reflects a modern healthcare experience, providing users with a smooth and user-friendly process for appointment management. It integrates essential elements like phone number validation and is likely geared towards ensuring accessibility and reliability for patients and healthcare providers alike."
+  },{ "screenShot": "", "title": "2", "description": "" }]
+}
