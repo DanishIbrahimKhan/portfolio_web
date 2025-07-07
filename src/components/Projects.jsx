@@ -1,7 +1,9 @@
 import { useState } from "react";
 import { getConfigData } from "../data/configReader";
+import { useNavigate } from "react-router-dom";
 
 export default function Card() {
+  const navigate = useNavigate();
   const configData = getConfigData();
   const projects = configData.projects;
 
@@ -30,7 +32,7 @@ export default function Card() {
             </div>
             <button
               type="button"
-              onClick={()=>window.location.href=("/projects")}
+              onClick={()=>navigate("/projects")}
               className="gap-x-2 text-gray-900 bg-white border border-gray-200 hover:border-gray-300 transition-all duration-300 focus:ring-4 focus:ring-gray-100 font-medium rounded-lg text-sm px-3 py-2 text-center inline-flex items-center"
             >
               View All
