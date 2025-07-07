@@ -18,9 +18,19 @@ export default function Profile() {
         </div>
         <div className={workStatusTextClass}>
           <div className="text-sm font-medium flex items-center gap-x-1">
-            <div className={workStatusClass}></div>
-            <span className="hidden md:block">{workStatusText}</span>
-          </div>
+  {configData.status === 'on' ? (
+    <>
+      <span className="relative flex h-3 w-3">
+        <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#109d5c] opacity-75"></span>
+        <span className="relative inline-flex rounded-full h-3 w-3 bg-[#109d5c]"></span>
+      </span>
+    </>
+  ) : (
+    <div className={workStatusClass}></div>
+  )}
+  <span className="hidden md:block">{workStatusText}</span>
+</div>
+
         </div>
       </div>
       <div className="px-7 py-7 flex flex-col flex-col-reverse md:flex md:flex-row md:items-center md:justify-between pt-3">
