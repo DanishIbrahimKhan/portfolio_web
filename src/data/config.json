@@ -1,21 +1,21 @@
 {
-  "job": "Frontend Developer",
+  "job": "Full-Stack Web Developer",
   "name": "Danish Ibrahim Khan",
-  "desc": "The traveler of this path, a web designer in Maharashtra India.",
-  "aboutDesc": "I’m a Web Developer with over two years of experience, specializing in front-end development with React.js, React Saga, and Next.js. I have a proven track record of building responsive, high-performance web applications while collaborating with cross-functional and multilingual teams to deliver localized functionality and seamless user experiences.I possess foundational knowledge of React Native for developing cross-platform mobile applications and have knowledge of Node.js for back-end development, enabling me to understand full-stack projects effectively.My skill set includes integrating RESTful APIs to manage and display real-time data. I utilize tools such as Netlify, Git, Figma, Azure, and Jira to streamline development, deployment, and project management. With a strong foundation in HTML5, CSS3, and JavaScript (ES6+), I am committed to ensuring cross-browser compatibility and delivering high-quality solutions.",
-  "email": "mr.danishibrahim@gmail.com",
+  "desc": "An enthusiastic full-stack developer from Maharashtra, India, creating modern, scalable, and real-time web applications that make an impact.",
+  "aboutDesc": "I’m a Full-Stack Web Developer with over two years of experience building scalable, responsive, and high-performance web applications. My development approach focuses on writing clean, maintainable code and delivering seamless user experiences.\n\nOn the frontend, I specialize in React.js, Tailwind CSS, and Material-UI to create elegant, component-driven interfaces that work flawlessly across devices. I also have hands-on experience with Next.js for server-side rendering and React Saga for managing complex asynchronous logic in large-scale applications.\n\nOn the backend, I work with Node.js and Express.js to build secure and efficient RESTful APIs. I use Sequelize ORM with MySQL to manage and optimize database operations. I’ve implemented authentication systems using JWT and OAuth 2.0 and developed real-time communication features such as chat and notifications using Socket.io. Additionally, I’ve automated recurring tasks with cron jobs and webhooks.\n\nI’m proficient in integrating third-party services like Razorpay and Stripe for payment processing, and I ensure cross-browser compatibility and mobile responsiveness in every project. I use tools like Git, GitHub, Jira, and Postman for version control and collaboration, and I deploy applications using Netlify and Azure.\n\nWith a solid foundation in HTML5, CSS3, and modern JavaScript (ES6+), I am confident in delivering full-stack solutions that are both functional and visually appealing. I thrive in agile teams and continuously seek opportunities to learn, grow, and contribute to meaningful software projects.",
   "status": "on",
   "hireMeLink": "mailto:mr.danishibrahim@gmail.com",
   "projects": [
     {
-      "project-image-url": "https://github.com/kaanayyildiz/benfolio/assets/39806458/9d826c30-0135-4620-8e0f-bc3460848e5e",
-      "project-name": "portfolio",
-      "project-desc": "React + Tailwind"
+      "project-image-url": "https://raw.githubusercontent.com/DanishIbrahimKhan/assets/main/macbook-air-medium.png",
+      "project-name": "Portfolio Website",
+      "project-desc": "Built with React and Tailwind CSS",
+      "href": "https://mr-danishibrahim.netlify.app/"
     },
     {
       "project-image-url": "https://raw.githubusercontent.com/DanishIbrahimKhan/assets/main/carepulse2.jpg",
-      "project-name": "carepulse",
-      "project-desc": "Next JS + Appwrite + Tailwind",
+      "project-name": "CarePulse",
+      "project-desc": "Next.js + Appwrite + Tailwind CSS",
       "href": "https://dik-carepulse.vercel.app"
     }
   ],
@@ -37,9 +37,31 @@
       "link": "tel:+919172237224"
     }
   ],
-  "projectShow": [{
-    "screenShot": "https://raw.githubusercontent.com/DanishIbrahimKhan/assets/main/carepulseSS1.jpg",
-    "title": "CarePulse - Online Healthcare Appointment System",
-    "description": "CarePulse is a healthcare web application designed to simplify the process of scheduling medical appointments. The platform allows patients to quickly and easily book appointments with healthcare professionals by entering basic personal information such as their full name, email, and phone number. The website's clean and professional interface reflects a modern healthcare experience, providing users with a smooth and user-friendly process for appointment management. It integrates essential elements like phone number validation and is likely geared towards ensuring accessibility and reliability for patients and healthcare providers alike."
-  },{ "screenShot": "", "title": "2", "description": "" }]
+  "projectShow": [
+    {
+      "screenShot": "https://raw.githubusercontent.com/DanishIbrahimKhan/assets/main/carepulseSS1.jpg",
+      "title": "CarePulse – Online Healthcare Appointment System",
+      "description": "CarePulse is a healthcare web application designed to simplify the process of scheduling medical appointments. It features a clean and professional interface, allowing patients to book appointments easily using validated personal information. The platform emphasizes accessibility and a seamless user experience for both patients and providers."
+    },
+    {
+      "screenShot": "https://raw.githubusercontent.com/DanishIbrahimKhan/assets/main/quetelo.jpg",
+      "title": "Quotelo – Smart Booking Platform for Meetings & Events",
+      "description": "Quotelo is a French SaaS platform for managing quotes and invoices. I contributed to developing a responsive frontend using React.js and Tailwind CSS, implemented i18n for French localization using next-i18next, and integrated REST APIs for dynamic data handling. I focused on improving user experience and collaborated with cross-functional teams to ensure consistency across the platform."
+    },
+    {
+      "screenShot": "https://raw.githubusercontent.com/DanishIbrahimKhan/assets/main/sanlamSS.png",
+      "title": "Sanlam Online – Insurance Claim Camera Module",
+      "description": "Sanlam Online is a digital insurance platform for claim submissions. I built a camera module using browser media APIs, allowing users to capture photos and videos with real-time instructions. I ensured cross-browser compatibility and worked closely with QA and product teams to enhance user experience and validation mechanisms."
+    },
+    {
+      "screenShot": "https://raw.githubusercontent.com/DanishIbrahimKhan/assets/main/343c65f54ca652598d01f48046e894cf.jpg",
+      "title": "Fisheries & Aquaculture Management Portal – Government of Morocco",
+      "description": "This government platform streamlines fisheries and aquaculture operations. I contributed as a frontend and full-stack developer, building responsive UIs with React.js and Tailwind CSS, implementing secure RESTful APIs, and managing workflows for organization registration, legal compliance, and agency coordination."
+    },
+    {
+      "screenShot": "https://raw.githubusercontent.com/DanishIbrahimKhan/assets/main/amazonCloneSS.png",
+      "title": "Amazon Clone – E-commerce Frontend",
+      "description": "A simplified Amazon-like shopping platform built using only HTML, CSS, and JavaScript. It allows users to browse products, add them to a cart, and see dynamic price calculations. All operations are handled client-side, showcasing core e-commerce features without a backend."
+    }
+  ]
 }
