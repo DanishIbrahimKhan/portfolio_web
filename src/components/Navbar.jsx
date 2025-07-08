@@ -1,12 +1,31 @@
 import { NavLink } from "react-router-dom";
 import { getConfigData } from "../data/configReader";
+import { useEffect, useState } from "react";
 
 export default function Navbar() {
   const configData = getConfigData();
+  const [showNavbar, setShowNavbar] = useState(true);
+  let lastScrollY = 0;
+
+  const controlNavbar = () => {
+    if (window.scrollY > lastScrollY) {
+      setShowNavbar(false); // Scroll Down → Hide
+    } else {
+      setShowNavbar(true);  // Scroll Up → Show
+    }
+    lastScrollY = window.scrollY;
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", controlNavbar);
+    return () => window.removeEventListener("scroll", controlNavbar);
+  }, []);
+
 
   return (
     <>
-      <header className="py-2 px-2 fixed top-0 left-0 w-full z-40">
+      <header className={`py-2 px-2 fixed top-0 left-0 w-full z-40 transition-transform duration-300 ${showNavbar ? "translate-y-0" : "-translate-y-full"}`}>
+
         <div className="mx-auto max-w-5xl ">
           <navbar className="backdrop-filter backdrop-blur-lg bg-white bg-opacity-40 rounded-xl flex items-center justify-between shadow-md">
             <div className="flex gap-x-3 px-5 py-2">
