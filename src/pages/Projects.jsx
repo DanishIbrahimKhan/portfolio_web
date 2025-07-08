@@ -13,8 +13,32 @@ export default function Home() {
   const [startX, setStartX] = useState(0);
   const [scrollLeft, setScrollLeft] = useState(0);
   const [isAutoScrollPaused, setIsAutoScrollPaused] = useState(false);
+  const [activeIndex, setActiveIndex] = useState(0); // 🟢 Track active dot
 
-  // ✅ Handle Wheel Scroll Horizontally
+  // 🟢 Update active dot on scroll
+  const updateActiveIndex = () => {
+    const container = scrollRef.current;
+    if (!container) return;
+
+    const cardWidth = container.querySelector(".snap-start")?.offsetWidth || 320;
+    const index = Math.round(container.scrollLeft / cardWidth) % projects.length;
+    setActiveIndex(index);
+  };
+
+  useEffect(() => {
+    const el = scrollRef.current;
+    if (!el) return;
+
+    const handleScroll = () => {
+      pauseAutoScroll();
+      updateActiveIndex();
+    };
+
+    el.addEventListener("scroll", handleScroll);
+    return () => el.removeEventListener("scroll", handleScroll);
+  }, [projects.length]);
+
+  // ✅ Wheel Scroll Horizontal
   useEffect(() => {
     const el = scrollRef.current;
     const handleWheel = (e) => {
@@ -27,7 +51,7 @@ export default function Home() {
     return () => el?.removeEventListener("wheel", handleWheel);
   }, []);
 
-  // ✅ Handle Mouse Drag Scroll
+  // ✅ Drag Scroll
   const handleMouseDown = (e) => {
     pauseAutoScroll();
     setIsDragging(true);
@@ -48,7 +72,7 @@ export default function Home() {
     resumeAutoScrollAfterDelay();
   };
 
-  // ✅ Auto Scrolling with Infinite Loop
+  // ✅ Auto Scroll
   useEffect(() => {
     const autoScroll = () => {
       const el = scrollRef.current;
@@ -67,7 +91,6 @@ export default function Home() {
     return () => cancelAnimationFrame(animationRef.current);
   }, [isDragging, isAutoScrollPaused]);
 
-  // ✅ Pause / Resume Helpers
   const pauseAutoScroll = () => {
     setIsAutoScrollPaused(true);
     clearTimeout(timeoutRef.current);
@@ -83,8 +106,22 @@ export default function Home() {
   return (
     <div className="px-4 select-none">
       <h2 className="text-2xl font-bold mb-4 text-center">Projects</h2>
+
+      {/* ⬇️ Pagination Dots */}
+      <div className="flex justify-center gap-2 mb-3">
+        {projects.map((_, i) => (
+          <div
+            key={i}
+            className={`w-2.5 h-2.5 rounded-full transition ${
+              activeIndex === i ? "bg-gray-800 scale-110" : "bg-gray-300"
+            }`}
+          ></div>
+        ))}
+      </div>
+
       <p className="text-sm text-gray-500 mb-3 text-center">⇠ Scroll ⇢</p>
 
+      {/* 🟢 Scrollable Cards */}
       <div
         ref={scrollRef}
         className="flex gap-4 overflow-x-auto scroll-smooth snap-x snap-mandatory hide-scrollbar cursor-grab active:cursor-grabbing"
