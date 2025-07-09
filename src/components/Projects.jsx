@@ -39,7 +39,7 @@ export default function Card() {
         <div className="flex items-center justify-between mb-5">
           <div className="font-medium text-lg flex items-center gap-x-2">
             <div className="w-1.5 h-1.5 bg-gray-400 rounded-full"></div>
-            Projectss
+            Projects
           </div>
           <button
             onClick={() => navigate("/projects")}

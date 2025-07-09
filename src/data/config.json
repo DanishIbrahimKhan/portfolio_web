@@ -62,6 +62,28 @@
       "screenShot": "https://raw.githubusercontent.com/DanishIbrahimKhan/assets/main/amazonCloneSS.png",
       "title": "Amazon Clone – E-commerce Frontend",
       "description": "A simplified Amazon-like shopping platform built using only HTML, CSS, and JavaScript. It allows users to browse products, add them to a cart, and see dynamic price calculations. All operations are handled client-side, showcasing core e-commerce features without a backend."
-    }
+    },
+    {
+  "screenShot": "https://raw.githubusercontent.com/DanishIbrahimKhan/assets/main/a8a1f473-be1f-4d0e-ac9c-c1a473e5309b.jpg",
+  "title": "Real-Time Chat App – Socket.IO & Zustand Based",
+  "description": "This is a full-stack real-time chat application built using React, Tailwind CSS, Zustand, and Socket.IO. It features instant messaging, typing indicators, emoji support, and message timestamps. The backend is powered by Express.js and MySQL with secure JWT-based authentication. Users can register, log in, and chat instantly with other users. Zustand handles global state management, while Moment.js provides time formatting. The chat interface is fully responsive and optimized for both desktop and mobile. Socket.IO ensures seamless real-time communication, and the system is built with scalability and performance in mind."
+},{
+  "screenShot": "https://raw.githubusercontent.com/DanishIbrahimKhan/assets/main/efb96b2c-b12b-47a3-86be-9d7a3bc28a4a.jpg",
+  "title": "Memory Game – React & Tailwind Based Puzzle",
+  "description": "This is a browser-based memory matching game built using React and Tailwind CSS. It challenges players to match card pairs with increasing difficulty. The project features a 6x6 grid layout, animated transitions using Lottie, feedback with SweetAlert2, and toast notifications for user actions. Designed for both mobile and desktop, the game encourages visual memory skills with a modern UI and smooth animations."
+},
+{
+  "screenShot": "https://raw.githubusercontent.com/DanishIbrahimKhan/assets/main/4bb47cbf-2cb3-4c19-abae-b367fdcd7a8f.jpg",
+  "title": "Doorstep Bike Service – Mechanic Platform",
+  "description": "This web platform provides end-to-end bike servicing and maintenance solutions directly at the customer's doorstep. It offers a seamless booking experience for a wide range of services including periodic maintenance, dent and paint, insurance, battery replacement, and emergency roadside assistance. The platform allows users to choose from tailored service packages based on bike type and engine capacity, complete with transparent pricing and genuine spare parts. Built with a responsive and user-centric interface, the application also features structured workflows for workshop registration, mechanic onboarding, and franchise inquiry—streamlining the entire two-wheeler service ecosystem through digital automation."
+},
+{
+  "screenShot": "https://raw.githubusercontent.com/DanishIbrahimKhan/assets/main/3799e3fe-1c2d-4962-a81c-9ac0a260ceb8.jpg",
+  "title": "Khan Furniture – Custom Furniture & uPVC Solutions",
+  "description": "Khan Furniture is a modern furniture and uPVC solutions brand that blends traditional craftsmanship with contemporary design. The platform showcases a curated range of handcrafted furniture and premium uPVC installations including sliding windows, casement doors, and French doors. Focused on customization, durability, and sustainability, Khan Furniture enables users to explore products, calculate pricing, and submit inquiries directly through a responsive interface. The platform highlights key USPs such as eco-friendly materials, termite resistance, noise reduction, energy savings, and high-security locking systems — offering a complete digital experience for home improvement and interior projects."
+}
+
+
+
   ]
 }
