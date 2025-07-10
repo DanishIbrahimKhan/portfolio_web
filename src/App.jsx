@@ -6,12 +6,14 @@ import { getConfigData } from "./data/configReader";
 import Social from "./components/Social";
 import Footer from "./components/Footer";
 import SiteRoutes from "./routes/SiteRoutes";
+import CustomCursor from "./components/CustomCursor";
 
 function App() {
   const configData = getConfigData();
 
   return (
     <>
+      <CustomCursor />
       <Navbar />
       <div className="pt-[5rem] px-2 py-2">
         <div className="mx-auto max-w-5xl bg-white rounded-xl shadow-lg">

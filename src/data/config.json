@@ -1,8 +1,14 @@
 {
-  "job": "Full-Stack Web Developer",
+   "job": "Full-Stack Web Developer",
   "name": "Danish Ibrahim Khan",
   "desc": "An enthusiastic full-stack developer from Maharashtra, India, creating modern, scalable, and real-time web applications that make an impact.",
-  "aboutDesc": "I’m a Full-Stack Web Developer with over two years of experience building scalable, responsive, and high-performance web applications. My development approach focuses on writing clean, maintainable code and delivering seamless user experiences.\n\nOn the frontend, I specialize in React.js, Tailwind CSS, and Material-UI to create elegant, component-driven interfaces that work flawlessly across devices. I also have hands-on experience with Next.js for server-side rendering and React Saga for managing complex asynchronous logic in large-scale applications.\n\nOn the backend, I work with Node.js and Express.js to build secure and efficient RESTful APIs. I use Sequelize ORM with MySQL to manage and optimize database operations. I’ve implemented authentication systems using JWT and OAuth 2.0 and developed real-time communication features such as chat and notifications using Socket.io. Additionally, I’ve automated recurring tasks with cron jobs and webhooks.\n\nI’m proficient in integrating third-party services like Razorpay and Stripe for payment processing, and I ensure cross-browser compatibility and mobile responsiveness in every project. I use tools like Git, GitHub, Jira, and Postman for version control and collaboration, and I deploy applications using Netlify and Azure.\n\nWith a solid foundation in HTML5, CSS3, and modern JavaScript (ES6+), I am confident in delivering full-stack solutions that are both functional and visually appealing. I thrive in agile teams and continuously seek opportunities to learn, grow, and contribute to meaningful software projects.",
+  "aboutIntro": "I’m a Full-Stack Web Developer with over two years of experience building scalable, responsive, and high-performance web applications. My development approach focuses on writing clean, maintainable code and delivering seamless user experiences.",
+  "aboutFrontend": "On the frontend, I specialize in React.js, Tailwind CSS, and Material-UI to create elegant, component-driven interfaces that work flawlessly across devices. I also have hands-on experience with Next.js for server-side rendering and React Saga for managing complex asynchronous logic in large-scale applications.",
+  "aboutBackend": "On the backend, I work with Node.js and Express.js to build secure and efficient RESTful APIs. I use Sequelize ORM with MySQL to manage and optimize database operations. I’ve implemented authentication systems using JWT and OAuth 2.0 and developed real-time communication features such as chat and notifications using Socket.io. Additionally, I’ve automated recurring tasks with cron jobs and webhooks.",
+  "aboutIntegrations": "I’m proficient in integrating third-party services like Razorpay and Stripe for payment processing, and I ensure cross-browser compatibility and mobile responsiveness in every project.",
+  "aboutTools": "I use tools like Git, GitHub, Jira, and Postman for version control and collaboration, and I deploy applications using Netlify and Azure.",
+  "aboutSkills": "With a solid foundation in HTML5, CSS3, and modern JavaScript (ES6+), I am confident in delivering full-stack solutions that are both functional and visually appealing.",
+  "aboutClosing": "I thrive in agile teams and continuously seek opportunities to learn, grow, and contribute to meaningful software projects.",
   "status": "on",
   "hireMeLink": "mailto:mr.danishibrahim@gmail.com",
   "projects": [
@@ -38,52 +44,59 @@
     }
   ],
   "projectShow": [
-    {
-      "screenShot": "https://raw.githubusercontent.com/DanishIbrahimKhan/assets/main/carepulseSS1.jpg",
-      "title": "CarePulse – Online Healthcare Appointment System",
-      "description": "CarePulse is a healthcare web application designed to simplify the process of scheduling medical appointments. It features a clean and professional interface, allowing patients to book appointments easily using validated personal information. The platform emphasizes accessibility and a seamless user experience for both patients and providers."
-    },
-    {
-      "screenShot": "https://raw.githubusercontent.com/DanishIbrahimKhan/assets/main/quetelo.jpg",
-      "title": "Quotelo – Smart Booking Platform for Meetings & Events",
-      "description": "Quotelo is a French SaaS platform for managing quotes and invoices. I contributed to developing a responsive frontend using React.js and Tailwind CSS, implemented i18n for French localization using next-i18next, and integrated REST APIs for dynamic data handling. I focused on improving user experience and collaborated with cross-functional teams to ensure consistency across the platform."
-    },
-    {
-      "screenShot": "https://raw.githubusercontent.com/DanishIbrahimKhan/assets/main/sanlamSS.png",
-      "title": "Sanlam Online – Insurance Claim Camera Module",
-      "description": "Sanlam Online is a digital insurance platform for claim submissions. I built a camera module using browser media APIs, allowing users to capture photos and videos with real-time instructions. I ensured cross-browser compatibility and worked closely with QA and product teams to enhance user experience and validation mechanisms."
-    },
-    {
-      "screenShot": "https://raw.githubusercontent.com/DanishIbrahimKhan/assets/main/343c65f54ca652598d01f48046e894cf.jpg",
-      "title": "Fisheries & Aquaculture Management Portal – Government of Morocco",
-      "description": "This government platform streamlines fisheries and aquaculture operations. I contributed as a frontend and full-stack developer, building responsive UIs with React.js and Tailwind CSS, implementing secure RESTful APIs, and managing workflows for organization registration, legal compliance, and agency coordination."
-    },
-    {
-      "screenShot": "https://raw.githubusercontent.com/DanishIbrahimKhan/assets/main/amazonCloneSS.png",
-      "title": "Amazon Clone – E-commerce Frontend",
-      "description": "A simplified Amazon-like shopping platform built using only HTML, CSS, and JavaScript. It allows users to browse products, add them to a cart, and see dynamic price calculations. All operations are handled client-side, showcasing core e-commerce features without a backend."
-    },
-    {
-  "screenShot": "https://raw.githubusercontent.com/DanishIbrahimKhan/assets/main/a8a1f473-be1f-4d0e-ac9c-c1a473e5309b.jpg",
-  "title": "Real-Time Chat App – Socket.IO & Zustand Based",
-  "description": "This is a full-stack real-time chat application built using React, Tailwind CSS, Zustand, and Socket.IO. It features instant messaging, typing indicators, emoji support, and message timestamps. The backend is powered by Express.js and MySQL with secure JWT-based authentication. Users can register, log in, and chat instantly with other users. Zustand handles global state management, while Moment.js provides time formatting. The chat interface is fully responsive and optimized for both desktop and mobile. Socket.IO ensures seamless real-time communication, and the system is built with scalability and performance in mind."
-},{
-  "screenShot": "https://raw.githubusercontent.com/DanishIbrahimKhan/assets/main/efb96b2c-b12b-47a3-86be-9d7a3bc28a4a.jpg",
-  "title": "Memory Game – React & Tailwind Based Puzzle",
-  "description": "This is a browser-based memory matching game built using React and Tailwind CSS. It challenges players to match card pairs with increasing difficulty. The project features a 6x6 grid layout, animated transitions using Lottie, feedback with SweetAlert2, and toast notifications for user actions. Designed for both mobile and desktop, the game encourages visual memory skills with a modern UI and smooth animations."
-},
-{
-  "screenShot": "https://raw.githubusercontent.com/DanishIbrahimKhan/assets/main/4bb47cbf-2cb3-4c19-abae-b367fdcd7a8f.jpg",
-  "title": "Doorstep Bike Service – Mechanic Platform",
-  "description": "This web platform provides end-to-end bike servicing and maintenance solutions directly at the customer's doorstep. It offers a seamless booking experience for a wide range of services including periodic maintenance, dent and paint, insurance, battery replacement, and emergency roadside assistance. The platform allows users to choose from tailored service packages based on bike type and engine capacity, complete with transparent pricing and genuine spare parts. Built with a responsive and user-centric interface, the application also features structured workflows for workshop registration, mechanic onboarding, and franchise inquiry—streamlining the entire two-wheeler service ecosystem through digital automation."
-},
-{
-  "screenShot": "https://raw.githubusercontent.com/DanishIbrahimKhan/assets/main/3799e3fe-1c2d-4962-a81c-9ac0a260ceb8.jpg",
-  "title": "Khan Furniture – Custom Furniture & uPVC Solutions",
-  "description": "Khan Furniture is a modern furniture and uPVC solutions brand that blends traditional craftsmanship with contemporary design. The platform showcases a curated range of handcrafted furniture and premium uPVC installations including sliding windows, casement doors, and French doors. Focused on customization, durability, and sustainability, Khan Furniture enables users to explore products, calculate pricing, and submit inquiries directly through a responsive interface. The platform highlights key USPs such as eco-friendly materials, termite resistance, noise reduction, energy savings, and high-security locking systems — offering a complete digital experience for home improvement and interior projects."
-}
-
-
-
+  {
+    "screenShot": "https://raw.githubusercontent.com/DanishIbrahimKhan/assets/main/carepulseSS1.jpg",
+    "title": "CarePulse – Online Healthcare Appointment System",
+    "description": "CarePulse is a healthcare web application designed to simplify the process of scheduling medical appointments. It features a clean and professional interface, allowing patients to book appointments easily using validated personal information. The platform emphasizes accessibility and a seamless user experience for both patients and providers.",
+    "liveLink": "https://carepulse.netlify.app",
+    "githubLink": "https://github.com/DanishIbrahimKhan/carepulse"  },
+  {
+    "screenShot": "https://raw.githubusercontent.com/DanishIbrahimKhan/assets/main/quetelo.jpg",
+    "title": "Quotelo – Smart Booking Platform for Meetings & Events",
+    "description": "Quotelo is a French SaaS platform for managing quotes and invoices. I contributed to developing a responsive frontend using React.js and Tailwind CSS, implemented i18n for French localization using next-i18next, and integrated REST APIs for dynamic data handling.",
+    "liveLink": "#",
+    "githubLink": "#"  },
+  {
+    "screenShot": "https://raw.githubusercontent.com/DanishIbrahimKhan/assets/main/sanlamSS.png",
+    "title": "Sanlam Online – Insurance Claim Camera Module",
+    "description": "Sanlam Online is a digital insurance platform. I built a browser-based camera module allowing users to capture photos and videos with instructions. Ensured cross-browser/mobile support and worked with product/QA teams.",
+    "liveLink": "#",
+    "githubLink": "#"  },
+  {
+    "screenShot": "https://raw.githubusercontent.com/DanishIbrahimKhan/assets/main/343c65f54ca652598d01f48046e894cf.jpg",
+    "title": "Fisheries & Aquaculture Management Portal – Govt. of Morocco",
+    "description": "This government platform streamlines fisheries and aquaculture operations. I contributed as a full-stack developer, building responsive UIs with React, integrating secure REST APIs, and managing workflows for legal compliance.",
+    "liveLink": "#",
+    "githubLink": "#"  },
+  {
+    "screenShot": "https://raw.githubusercontent.com/DanishIbrahimKhan/assets/main/amazonCloneSS.png",
+    "title": "Amazon Clone – E-commerce Frontend",
+    "description": "A simplified Amazon-like shopping platform built with HTML, CSS, and JavaScript. Users can browse products, add to cart, and see dynamic price calculations on the client-side.",
+    "liveLink": "https://amazonclone.netlify.app",
+    "githubLink": "https://github.com/DanishIbrahimKhan/amazon-clone"  },
+  {
+    "screenShot": "https://raw.githubusercontent.com/DanishIbrahimKhan/assets/main/a8a1f473-be1f-4d0e-ac9c-c1a473e5309b.jpg",
+    "title": "Real-Time Chat App – Socket.IO & Zustand",
+    "description": "A full-stack real-time chat app using React, Zustand, and Socket.IO. Features include instant messaging, typing indicators, emoji support, timestamps, JWT auth, and MySQL backend.",
+    "liveLink": "#",
+    "githubLink": "https://github.com/DanishIbrahimKhan/realtime-chat-zustand"  },
+  {
+    "screenShot": "https://raw.githubusercontent.com/DanishIbrahimKhan/assets/main/efb96b2c-b12b-47a3-86be-9d7a3bc28a4a.jpg",
+    "title": "Memory Game – React & Tailwind Puzzle",
+    "description": "A memory matching game using React and Tailwind. It features a 6x6 grid, Lottie animations, SweetAlert2 feedback, toast notifications, and responsive design.",
+    "liveLink": "https://memory101.netlify.app/",
+    "githubLink": "https://github.com/DanishIbrahimKhan/memory-game"  },
+  {
+    "screenShot": "https://raw.githubusercontent.com/DanishIbrahimKhan/assets/main/4bb47cbf-2cb3-4c19-abae-b367fdcd7a8f.jpg",
+    "title": "Doorstep Bike Service – Mechanic Platform",
+    "description": "Web platform offering bike servicing at doorstep. Supports service packages, mechanic onboarding, franchise inquiry, and a responsive booking workflow.",
+    "liveLink": "#",
+    "githubLink": "https://github.com/DanishIbrahimKhan/bike-service"  },
+  {
+    "screenShot": "https://raw.githubusercontent.com/DanishIbrahimKhan/assets/main/3799e3fe-1c2d-4962-a81c-9ac0a260ceb8.jpg",
+    "title": "Khan Furniture – Custom Furniture & uPVC Solutions",
+    "description": "Khan Furniture showcases modern furniture and uPVC installations. Users can explore sliding windows, doors, calculate pricing, and submit inquiries via a sleek UI.",
+    "liveLink": "https://khanfurniture.in/",
+    "githubLink": "https://github.com/DanishIbrahimKhan/khan-furniture"  }
   ]
 }
